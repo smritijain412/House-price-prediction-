@@ -29,5 +29,8 @@ Now check the assumptions of linear regression   5 assumptions
 After  the result of  assumptions, the conclusion is that linear regression gives an efficient value score. 
 Now these assumptions show that outliers are available in a dataset, and linear regression is not applicable on outliers data. Need to remove the outliers, Z-score value helps to deduct the outliers. Z score should be less than 3, z score gives each column's values. 
 Deduct the outliers dataset from the complete dataset , and split this dataset into train and test split. 
-Apply linear regression, and it gives 86 score 
+
+Apply linear regression, and it gives 77 score and try with other algos like logistic regression it gives 0.0028 score which is very poor. 
+
+Try with ensemble learning techniques a>ExtraTreesRegressor gives 82 score and GradientBoostingRegressor gives 75 score with n_estimator 20.
 
